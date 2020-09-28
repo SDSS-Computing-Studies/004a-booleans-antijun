@@ -12,3 +12,10 @@
 # - "that is a right triangle"
 # - "that is an acute triangle"
 # - "that is an obtuse triangle"
+
+import math
+
+a = int(input("Enter first side: "))
+b = int(input("Enter second side: "))
+c = int(input("Enter third side: "))
+
