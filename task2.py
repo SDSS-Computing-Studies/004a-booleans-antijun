@@ -1,6 +1,6 @@
 #! python3
-# Have the user input a number 
-# Determine if the number is positive, negative or 0 
+# Have the user input a number
+# Determine if the number is positive, negative or 0
 # 2 points
 
 # Inputs:
@@ -12,7 +12,7 @@
 # - "zero"
 
 inputnumber = input("Enter a number: ")
-a = int(inputnumber)
+a = float(inputnumber)
 b = 0
 
 if a > b:
