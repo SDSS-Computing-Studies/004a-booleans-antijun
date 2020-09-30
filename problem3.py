@@ -15,6 +15,8 @@ if username == admin:
     password = input("Enter your password: ")
     if password == correct_password:
         print("Access granted")
+    else:
+        print("invalid user")
 else:
     print("invalid user")
 
