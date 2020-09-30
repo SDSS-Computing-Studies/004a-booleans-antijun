@@ -38,7 +38,7 @@ elif hyp == c:
 
 actual_hyp = side1**2 + side2**2
 
-if side1**2 + side2**2 == hyp**2 and (hyp - actual_hyp > 0.02*hyp or hyp - actual_hyp < -0.02*hyp):
+if side1**2 + side2**2 == round(hyp)**2 and (hyp - actual_hyp > 0.02*hyp or hyp - actual_hyp < -0.02*hyp):
     print("that is a right triangle")
 elif side1**2 + side2**2 > hyp**2:
     print("that is an acute triangle")
